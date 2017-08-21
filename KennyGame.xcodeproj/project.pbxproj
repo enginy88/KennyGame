@@ -12,6 +12,8 @@
 		4830098F1F4ACACD00FB10F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4830098D1F4ACACD00FB10F7 /* Main.storyboard */; };
 		483009911F4ACACD00FB10F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 483009901F4ACACD00FB10F7 /* Assets.xcassets */; };
 		483009941F4ACACD00FB10F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 483009921F4ACACD00FB10F7 /* LaunchScreen.storyboard */; };
+		4830099D1F4ACBFE00FB10F7 /* Kenny.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4830099B1F4ACBFC00FB10F7 /* Kenny.jpg */; };
+		4830099E1F4ACBFE00FB10F7 /* SouthPark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4830099C1F4ACBFC00FB10F7 /* SouthPark.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		483009901F4ACACD00FB10F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		483009931F4ACACD00FB10F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		483009951F4ACACD00FB10F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4830099B1F4ACBFC00FB10F7 /* Kenny.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kenny.jpg; sourceTree = "<group>"; };
+		4830099C1F4ACBFC00FB10F7 /* SouthPark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SouthPark.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		483009881F4ACACD00FB10F7 /* KennyGame */ = {
 			isa = PBXGroup;
 			children = (
+				4830099B1F4ACBFC00FB10F7 /* Kenny.jpg */,
+				4830099C1F4ACBFC00FB10F7 /* SouthPark.jpg */,
 				483009891F4ACACD00FB10F7 /* AppDelegate.swift */,
 				4830098B1F4ACACD00FB10F7 /* ViewController.swift */,
 				4830098D1F4ACACD00FB10F7 /* Main.storyboard */,
@@ -122,7 +128,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4830099E1F4ACBFE00FB10F7 /* SouthPark.jpg in Resources */,
 				483009941F4ACACD00FB10F7 /* LaunchScreen.storyboard in Resources */,
+				4830099D1F4ACBFE00FB10F7 /* Kenny.jpg in Resources */,
 				483009911F4ACACD00FB10F7 /* Assets.xcassets in Resources */,
 				4830098F1F4ACACD00FB10F7 /* Main.storyboard in Resources */,
 			);
@@ -275,11 +283,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WM24M545RT;
 				INFOPLIST_FILE = KennyGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.enginyuce.KennyGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -289,11 +298,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WM24M545RT;
 				INFOPLIST_FILE = KennyGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.enginyuce.KennyGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
